@@ -4,14 +4,14 @@
 
 /* Universal Selector For Browser */
 
-*{
+* {
     margin: 0px;
     padding: 0px;
 }
 
 /* Header 1st Banner CSS Style */
 
-.banner{
+.banner {
 
     color: white;
     text-align: center;
@@ -94,4 +94,68 @@
     margin-top: 50px;
 }
 
-/* Discount Section End */
+/* Discount Section CSS End */
+
+
+/* Welcome To Midnight CSS Start */
+
+.invitation-section {
+    background-image: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url('./images/Vectorrr.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    max-width: 1440;
+    margin: 0px auto;
+    width: 75%;
+    height: 500px;
+    color: white;
+    border-radius: 16px;
+    margin-top: 120px;
+    display: flex;
+    flex-direction: row;
+
+}
+
+.invitation-section h1 {
+    font-family: Merriweather;
+    font-size: 64px;
+    font-weight: 900;
+    line-height: 88px;
+    letter-spacing: 7.04px;
+    padding-top: 70px;
+    padding-left: 50px;
+}
+
+.invitation-section p {
+    color: rgba(255, 255, 255, 0.80);
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    margin-top: 25px;
+    margin-bottom: 50px;
+    padding-left: 50px;
+
+}
+
+.invitation-section button {
+    background-color: red;
+    border: none;
+    color: white;
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-left: 50px;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.invitation-section img {
+    position: relative;
+    width: 280px;
+    height: 300px;
+    left: -150px;
+    top: 21.32%;
+    bottom: 30.94%;
+}
+
